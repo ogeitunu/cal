@@ -5,13 +5,13 @@ body{
     margin-right: 10%;
 }
 .cal {
-    width: 50%;
-    height: 30%px;
+    width: 65%;
+    height: 45%px;
     margin: 0 auto;
     text-align: center;
     box-sizing: border-box;
     box-shadow: 1px, 1px, 8px #fadddd;
-    font-size: 25px;
+    font-size: 35px;
   }
   
   .display {
