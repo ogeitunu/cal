@@ -31,6 +31,8 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 2fr);
     gap: 6px;
+    height: 8vh;
+    width: 10%;
   }
   
   .button {
