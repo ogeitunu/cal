@@ -1,47 +1,33 @@
-let currentInput = '';
-let previousInput = '';
-let operator = '';
+let display = document.getElementById('display');
 
-function appendToDisplay(value) {
-    currentInput += value;
-    document.getElementById('display').innerHTML = currentInput;
-}
+let buttons = Array.from(document.getElementsByClassName('button'));
 
-function clearDisplay() {
-    currentInput = '';
-    previousInput = '';
-    operator = '';
-    document.getElementById('display').innerHTML = '0';
-}
-
-function calculate() {
-    const num1 = parseFloat(previousInput);
-    currentInput = parseFloat(currentInput);
-
-    switch (operator) {
-        case '+':
-            currentInput = previousInput + currentInput;
-            return;
-        case '-':
-            currentInput = previousInput - currentInput;
-            break;
-        case '*':
-            currentInput = previousInput * currentInput;
-            break;
-        case '/':
-            if (currentInput === 0) {
-                document.getElementById('display').innerHTML = 'Error: Division by zero';
-                return;
-            } else {
-                currentInput = previousInput / currentInput;
-            }
-            break;
+buttons.map(button =>{
+    button.addEventListener('click', (e) => {
+        switch(e.target.innerText){
+            case  '9':
+                display.innerText = '';
+                break;
+            case '=':
+                try{
+                    display.innerText = eval(display.innerText);
+                 } catch{
+                    display.innerText= " Error";
+        }
+        break;
         default:
-            break;
-    }
+            display.innerText += e.target.innerText;
+        }
 
-    document.getElementById('display').innerHTML = currentInput;
-    previousInput = currentInput;
-    currentInput = '';
-    operator = '';
-}
+    });
+});
+    
+        
+
+
+
+
+
+
+
+
