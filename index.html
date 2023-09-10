@@ -5,14 +5,11 @@
   <link rel="stylesheet" type="text/css" href="cal.css">
 </head>
 <body>
-    <section>
   <div class="cal">
     <div class="display">
       <input type="text" id="display">
-    <div class="buttons">
     </div>
-</div>
-</section>
+    <section>
     <div class="buttons">
       <button class="number" onclick="appendToDisplay('7')">7</button>
       <button class="number" onclick="appendToDisplay('8')">8</button>
@@ -31,8 +28,12 @@
       <button class="clear" onclick="clearDisplay()">C</button>
       <button class="equal" onclick="calculateResult()">=</button>
       <button class="operator" onclick="appendToDisplay('/')">/</button>
+      <button class="number" onclick="appendToDisplay('')">(</button>
+      <button class="number" onclick="appendToDisplay('')">)</button>
+      <button class="number" onclick="appendToDisplay('')">^</button>
     </div>
   </div>
+</section>
 
   <script src="calculate.js"></script>
 </body>
