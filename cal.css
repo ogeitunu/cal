@@ -22,10 +22,11 @@
     gap: 5px;
   }
   
-  button {
+  .button {
     width: 100%;
     padding: 10px;
     font-size: 24px;
+    cursor: pointer;
   }
   
   .number {
@@ -47,4 +48,6 @@
     background-color: #f043d9;
     color: #0b5055;
   }
+
+
   
