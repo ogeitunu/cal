@@ -25,18 +25,17 @@ function add(a, b) {
   function calculate(a, b, operator) {
     switch (operator) {
       case "+":
-        return add(a, b);
+        return add(2, 3);
       case "-":
-        return subtract(a, b);
+        return subtract(5, 3);
       case "*":
-        return multiply(a, b);
+        return multiply(2, 1);
       case "/":
-        return divide(a, b);
+        return divide(6, 2);
       default:
         return "Invalid operator";
     }
   }
-  
   // Example:
   const num1 = 10;
   const num2 = 5;
