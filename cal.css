@@ -1,5 +1,5 @@
-.calculator {
-    width: 300px;
+.container {
+    width: 350px;
     margin: 0 auto;
     text-align: center;
   }
@@ -12,14 +12,14 @@
   
   input[type="text"] {
     width: 100%;
-    padding: 10px;
+    padding: 8px;
     font-size: 24px;
   }
   
   .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
+    gap: 4px;
   }
   
   .button {
