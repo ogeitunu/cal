@@ -5,13 +5,13 @@ body{
     margin-right: 10%;
 }
 .cal {
-    width: 85vh;
-    height: 60vh;
+    width: 90vh;
+    height: 70vh;
     margin: 0 auto;
     text-align: center;
     box-sizing: border-box;
-    box-shadow: 1px, 1px, 4px #fadddd;
-    font-size: 35px;
+    box-shadow: 1px, 1px, 4px #fc9595;
+    font-size: 45px;
   }
   
   .display {
@@ -36,7 +36,7 @@ body{
   }
   
   .button {
-    width: 40vh;
+    width: 60vh;
     padding: 10px;
     font-size: 30px;
     cursor: pointer;
