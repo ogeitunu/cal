@@ -4,10 +4,11 @@ body{
     margin-bottom:30% ;
 }
 .cal {
-    width: 250px;
+    width: 200px;
     margin: 0 auto;
     text-align: center;
-    box-shadow: 1px;
+    box-sizing: border-box;
+    box-shadow: 1px, 1px, 8px #fadddd;
   }
   
   .display {
@@ -17,8 +18,8 @@ body{
   }
   
   input[type="text"] {
-    width: 40vh;
-    padding: 10px;
+    width: 50vh;
+    padding: 15px;
     font-size: 24px;
     align-self: center;
   }
@@ -30,7 +31,7 @@ body{
   }
   
   .button {
-    width: 70vh;
+    width: 50vh;
     padding: 10px;
     font-size: 24px;
     cursor: pointer;
@@ -57,12 +58,14 @@ body{
   }
 
   section{
-    width: 65vh;
-    height: 28vh;
+    width: 40vh;
+    height: 30vh;
     padding: 15px, 10px;
     background-color: #cdfcfd;
     border: 1px solid #170d33;
   }
+
+    
 
 
   
