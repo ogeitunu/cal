@@ -1,37 +1,25 @@
-let display = document.getElementById('display');
+let displayValue = '';
 
-let buttons = Array.from(document.getElementsByClassName('button'));
+// append a value to the display
+function appendToDisplay(value) {
+  displayValue += value;
+  document.getElementById('display').value = displayValue;
+}
 
-buttons.map(button =>{
-    button.addEventListener('click', (e) => {
-        switch(e.target.innerText){
-            case  'C':
-                display.innerText = '';
-                break;
-            case '=':
-                try{
-                    display.innerText = eval(display.innerText);
-                 } catch{
-                    display.innerText= " Error";
-        }
-        break;
-        case '←':
-            if (display.innerText){
-               display.innerText = display.innerText.slice(0, -1);
-            }
-            break;
+// clear the display
+function clearDisplay() {
+  displayValue = '';
+  document.getElementById('display').value = displayValue;
+}
 
-        default:
-            display.innerText += e.target.innerText;
-        }
-        
-// Example usage:
-const num1 = 10;
-const num2 = 5;
-const operator = "+";
-const result = calculate(num1, num2, operator);
-console.log(`Result: ${result}`);
-
-
-    });
-});
+// calculate the result
+function calculateResult() {
+  try {
+    const result = eval(displayValue);
+    document.getElementById('display').value = result;
+    displayValue = result.toString();
+  } catch (error) {
+    document.getElementById('display').value = 'Error';
+    displayValue = '';
+  }
+}
