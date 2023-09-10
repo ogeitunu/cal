@@ -1,0 +1,33 @@
+
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+        }
+        .calculator {
+            max-width: 280px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 1 1 4px rgba(38, 86, 243, 0.2);
+            padding: 25px;
+            text-align: center;
+        }
+        #display {
+            font-size: 22px;
+            margin-bottom: 8px;
+            text-align: right;
+            padding: 6px;
+            border: 1px solid #fff;
+        }
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 6px;
+        }
+        button {
+            font-size: 22px;
+            padding: 8px;
+            border: 1px solid #fff;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    
