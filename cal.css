@@ -1,12 +1,12 @@
 
 body{
-    margin-top: 10%;
+    margin-top: 16%;
     margin-bottom:30% ;
     margin-right: 10%;
 }
 .cal {
-    width: 70vh;
-    height: 45vh;
+    width: 85vh;
+    height: 60vh;
     margin: 0 auto;
     text-align: center;
     box-sizing: border-box;
@@ -21,7 +21,7 @@ body{
   }
   
   input[type="text"] {
-    width: 38vh;
+    width: 45vh;
     padding: 8px;
     font-size: 30px;
     align-self: center;
