@@ -24,6 +24,14 @@ buttons.map(button =>{
         default:
             display.innerText += e.target.innerText;
         }
+        
+// Example usage:
+const num1 = 10;
+const num2 = 5;
+const operator = "+";
+const result = calculate(num1, num2, operator);
+console.log(`Result: ${result}`);
+
 
     });
 });
