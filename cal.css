@@ -11,7 +11,7 @@ body{
     text-align: center;
     box-sizing: border-box;
     box-shadow: 1px, 1px, 8px #fadddd;
-    font-size: medium;
+    font-size: 25px;
   }
   
   .display {
@@ -21,7 +21,7 @@ body{
   }
   
   input[type="text"] {
-    width: 30vh;
+    width: 38vh;
     padding: 15px;
     font-size: 30px;
     align-self: center;
@@ -31,7 +31,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 2fr);
     gap: 6px;
-    height: 8vh;
+    height: 7%;
     width: 10%;
   }
   
