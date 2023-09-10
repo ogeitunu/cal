@@ -31,54 +31,43 @@
         </div>
     </div>
 
-    <script src="script.js">
-        let currentInput = '';
-        let previousInput = '';
-        let operator = '';
+    <script>
+        let result;
+        // take operator input
+        const operator = prompt('Enter operator(either +, -, * or /):');
+        //take operand input
+        const num1 = parseFloat(prompt('Enter first nummber'));
+        const num2 = parseFloat(prompt('Enter second nummber'));
 
-        function appendToDisplay(value) {
-            currentInput += value;
-            document.getElementById('display').innerHTML = currentInput;
-        }
-
-        function clearDisplay() {
-            currentInput = '';
-            previousInput = '';
-            operator = '';
-            document.getElementById('display').innerHTML = '0';
-        }
-
-        function calculate() {
-            previousInput = parseFloat(previousInput);
-            currentInput = parseFloat(currentInput);
 
             switch (operator) {
                 case '+':
-                    currentInput = previousInput + currentInput;
-                    return;
+                    result= num1 + num2;
+                    console.log(`${num1} + ${num1} = ${result} `)
+                    break;
                 case '-':
-                    currentInput = previousInput - currentInput;
+                    result= num1 - num2;
+                    console.log(`${num1} - ${num1} = ${result} `)
                     break;
                 case '*':
-                    currentInput = previousInput * currentInput;
+                    result= num1 * num2;
+                    console.log(`${num1} * ${num1} = ${result} `)
                     break;
                 case '/':
-                    if (currentInput === 0) {
-                        document.getElementById('display').innerHTML = 'Error: Division by zero';
-                        return;
-                    } else {
-                        currentInput = previousInput / currentInput;
-                    }
+                    result= num1 / num2;
+                    console.log(`${num1} / ${num1} = ${result} `)
                     break;
                 default:
+                    console.log('invalid operator');
                     break;
+
             }
 
-            document.getElementById('display').innerHTML = currentInput;
-            previousInput = currentInput;
-            currentInput = '';
-            operator = '';
-        }
+
+
+                
+
+                
     </script>
 </body>
 </html>
