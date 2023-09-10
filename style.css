@@ -21,15 +21,15 @@
         }
         .button-grid {
             display: grid;
-            grid-template-columns: repeat(4, 2fr);
-            grid-gap: 6px;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 4px;
             border-left:2px solid #db31bf ;
-            border-bottom: 2px solid #15a2b4;
+            border-bottom: 8px solid #15a2b4;
         }
         button {
             font-size: 22px;
             padding: 8px;
-            border: 1px solid #fff;
+            border: 1px solid #a11111;
             border-radius: 4px;
             cursor: pointer;
         }
