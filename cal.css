@@ -1,5 +1,5 @@
 .cal {
-    width: 280px;
+    width: 320px;
     margin: 0 auto;
     text-align: center;
   }
@@ -11,19 +11,19 @@
   }
   
   input[type="text"] {
-    width: 60%;
-    padding: 8px;
+    width: 80vh;
+    padding: 10px;
     font-size: 24px;
   }
   
   .buttons {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 4px;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 6px;
   }
   
   .button {
-    width: 100%;
+    width: 70vh;
     padding: 10px;
     font-size: 24px;
     cursor: pointer;
@@ -47,6 +47,14 @@
   .equal {
     background-color: #f043d9;
     color: #0b5055;
+  }
+
+  section{
+    padding: 2px;
+    width: 40vh;
+    height: 60vh;
+    padding: 15px, 10px;
+    background-color: #cdfcfd;
   }
 
 
