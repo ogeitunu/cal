@@ -12,6 +12,7 @@ body{
     box-sizing: border-box;
     box-shadow: 1px, 1px, 4px #fc9595;
     font-size: 45px;
+    align-self: center;
   }
   
   .display {
@@ -65,7 +66,7 @@ body{
   section{
     width: 45vh;
     height:36vh;
-    padding: 15px, 10px;
+    padding: 22px;
     background-color: #cdfcfd;
     border: 1px solid #170d33;
     align-self: center;
