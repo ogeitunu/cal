@@ -45,6 +45,7 @@ body{
   .number {
     background-color: #f0f0f0;
     color: #030303;
+    font-size: 22px;
   }
   
   .operator {
@@ -63,8 +64,8 @@ body{
   }
 
   section{
-    width: 60vh;
-    height: 45vh;
+    width: 55vh;
+    height: 40vh;
     padding: 22px;
     background-color: #cdfcfd;
     border: 1px solid #170d33;
