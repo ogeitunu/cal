@@ -2,6 +2,7 @@
 body{
     margin-top: 16%;
     margin-bottom:30% ;
+    justify-content: center;
 }
 .cal {
     width: 90vh;
@@ -14,7 +15,13 @@ body{
     align-self: center;
   }
   
-  
+  .display {
+    margin: 5px;
+    padding: 1px;
+    background-color: #eee;
+    box-shadow: 1px, 1px, 4px #e9e8e8;
+    align-self: center;
+  }
   
   input[type="text"] {
     width: 45vh;
@@ -67,7 +74,6 @@ body{
     border: 1px solid #170d33;
     align-self: center;
     align-content: center;
-    transition: -50% -50%;
   }
 
     
