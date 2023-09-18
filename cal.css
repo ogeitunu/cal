@@ -18,13 +18,15 @@ body{
     margin: 7px;
     padding: 1px;
     box-shadow: 1px, 1px, 4px #e9e8e8;
+    align-self: center;
+
   }
   
   input[type="text"] {
     width: 36vh;
     padding: 8px;
     font-size: 30px;
-    align-self: center;
+  
   }
   
   .buttons {
