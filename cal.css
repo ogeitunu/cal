@@ -16,10 +16,11 @@ body{
   }
   
   .display {
-    margin: 8px;
+    margin: 12px;
     padding: 1px;
     box-shadow: 1px, 1px, 4px #e9e8e8;
     align-self: center;
+    justify-self: right;
   }
   
   input[type="text"] {
@@ -54,20 +55,20 @@ body{
   .operator {
     background-color: #c24cf1;
     color: #211824;
-    font-weight: 100;
+    font-weight: 200;
   }
   
   .clear {
     background-color: #8c7aee;
     color: #170d33;
     font-size: 30px;
-    font-weight: 100;
+    font-weight: 200;
   }
   
   .equal {
     background-color: #f043d9;
     color: #0b5055;
-    font-weight: 100;
+    font-weight: 200;
   }
 
   section{
@@ -77,7 +78,6 @@ body{
     background-color: #cdfcfd;
     border: 1px solid #170d33;
     align-self: center;
-    justify-self: center;
   }
 
     
