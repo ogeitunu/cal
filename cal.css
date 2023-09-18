@@ -16,10 +16,9 @@ body{
   }
   
   .display {
-    margin: 12px;
-    padding: 1px;
+    margin: 15px;
+    padding: 2px;
     box-shadow: 1px, 1px, 4px #e9e8e8;
-    align-self: center;
     justify-self: right;
   }
   
@@ -28,6 +27,7 @@ body{
     padding: 8px;
     font-size: 30px;
     align-self: center;
+    font-weight: 100;
   }
   
   .buttons {
@@ -41,7 +41,6 @@ body{
   .button {
     width: 60vh;
     padding: 10px;
-    font-size: 30px;
     cursor: pointer;
   }
   
