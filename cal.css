@@ -54,6 +54,7 @@ body{
   .operator {
     background-color: #c24cf1;
     color: #211824;
+    font-size: 30px;
     font-weight: 200;
   }
   
@@ -71,7 +72,7 @@ body{
   }
 
   section{
-    width: 60vh;
+    width: 68vh;
     height: 50vh;
     padding: 22px;
     background-color: #cdfcfd;
