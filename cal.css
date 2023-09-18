@@ -16,8 +16,8 @@ body{
   }
   
   .display {
-    margin: 8px;
-    padding: 2px;
+    margin: 5px;
+    padding: 1px;
     box-shadow: 1px, 1px, 4px #e9e8e8;
     justify-self: right;
   }
