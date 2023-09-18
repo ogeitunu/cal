@@ -19,7 +19,7 @@ body{
     margin: 5px;
     padding: 1px;
     box-shadow: 1px, 1px, 4px #e9e8e8;
-    justify-self: right;
+    justify-self: left;
   }
   
   input[type="text"] {
@@ -27,7 +27,6 @@ body{
     padding: 8px;
     font-size: 30px;
     align-self: center;
-    font-weight: 100;
   }
   
   .buttons {
