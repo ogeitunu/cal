@@ -20,7 +20,7 @@ body{
     margin: 15px;
     padding: 1px;
     box-shadow: 1px, 1px, 4px #e9e8e8;
-    transform: translate(50px, 50px);
+    align-self: center;
 
   }
   
@@ -81,6 +81,7 @@ body{
     background-color: #cdfcfd;
     border: 1px solid #170d33;
     align-self: center;
+    transform: translate(-50px, -50px);
   }
 
     
