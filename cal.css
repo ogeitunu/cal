@@ -20,7 +20,7 @@ body{
     margin: 15px;
     padding: 1px;
     box-shadow: 1px, 1px, 4px #e9e8e8;
-    align-self: center;
+    justify-self: center;
 
   }
   
@@ -28,7 +28,6 @@ body{
     width: 25vh;
     padding: 8px;
     font-size: 30px;
-    align-self: center;
   
   }
   
@@ -80,8 +79,7 @@ body{
     padding: 22px;
     background-color: #cdfcfd;
     border: 1px solid #170d33;
-    align-self: center;
-    transform: translate(-50px, -50px);
+    justify-self: center;
   }
 
     
