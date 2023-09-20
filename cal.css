@@ -7,7 +7,7 @@ body{
 }
 .cal {
     width: 90vh;
-    height: 70vh;
+    height: 75vh;
     margin: 0 auto;
     text-align: center;
     box-sizing: border-box;
@@ -20,7 +20,7 @@ body{
     margin: 20px;
     padding: 1px;
     box-shadow: 1px, 1px, 4px #e9e8e8;
-    margin-left: 6px;
+    margin-left: 15px;
 
   }
   
