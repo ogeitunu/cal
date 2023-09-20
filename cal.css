@@ -55,14 +55,14 @@ body{
   .operator {
     background-color: #c24cf1;
     color: #211824;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 200;
   }
   
   .clear {
     background-color: #8c7aee;
     color: #170d33;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 200;
   }
   
@@ -70,6 +70,7 @@ body{
     background-color: #f043d9;
     color: #0b5055;
     font-weight: 200;
+    font-size: 35px;
   }
 
   section{
