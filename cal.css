@@ -30,6 +30,15 @@ body{
     font-size: 30px;
   
   }
+  .text{
+    display: flex;
+    padding: 1px;
+  }
+  p{
+    margin: auto;
+    font-size: 12px;
+    font-weight: 100px;
+  }
   
   .buttons {
     display: grid;
