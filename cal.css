@@ -7,7 +7,7 @@ body{
 }
 .cal {
     width: 90vh;
-    height: 75vh;
+    height: 82vh;
     margin: 0 auto;
     text-align: center;
     box-sizing: border-box;
@@ -74,8 +74,8 @@ body{
   }
 
   section{
-    width: 65vh;
-    height: 50vh;
+    width: 57vh;
+    height: 60vh;
     padding: 22px;
     background-color: #cdfcfd;
     border: 1px solid #170d33;
